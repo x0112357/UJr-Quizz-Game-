@@ -5,12 +5,12 @@
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 
-/UJr - Quizz/[Ll]ibrary/
-/UJr - Quizz/[Tt]emp/
-/UJr - Quizz/[Oo]bj/
-/UJr - Quizz/[Bb]uild/
-/UJr - Quizz/[Bb]uilds/
-/UJr - Quizz/Assets/AssetStoreTools*
+UJr - Quizz/[Ll]ibrary/
+UJr - Quizz/[Tt]emp/
+UJr - Quizz/[Oo]bj/
+UJr - Quizz/[Bb]uild/
+UJr - Quizz/[Bb]uilds/
+UJr - Quizz/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 /.vs/
