@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuizLogic : MonoBehaviour
+public class QuizzLogic : MonoBehaviour
 {
 
     public int nPlayers; //Number of players variable
 
     public LinkedList<Question> QuestionList; //start by having a list of objects (question objects)
 
-    public string[] QuestionsArray = new string[10];
-    public string[] t;
+    public string[] QuestionsArray;
+    public string[] Answer;
+    public string[] Questions;
 
     // Use this for initialization
     void Start()
