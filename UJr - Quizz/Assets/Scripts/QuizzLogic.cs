@@ -7,12 +7,6 @@ public class QuizzLogic : MonoBehaviour
 {
     public int nPlayers; //Number of players variable
 
-    public LinkedList<Question> QuestionList = new LinkedList<Question>(); //start by having a list of objects (question objects)
-
-    public string[] QuestionsArray;
-    public string[] CorrectAnswer;
-    public string[] PossibleAnswers;
-
     Button button1;
     Button button2;
     Button button3;
@@ -20,7 +14,7 @@ public class QuizzLogic : MonoBehaviour
 
     Question currentQuestion;
 
-    public List<Question> QuestionList2;
+    public List<Question> QuestionList;
 
     // Use this for initialization
     void Start()
@@ -35,23 +29,6 @@ public class QuizzLogic : MonoBehaviour
         button3.onClick.AddListener(() => choseAnswer(3));
         button4.onClick.AddListener(() => choseAnswer(4));
 
-        for (int i = 0; i < QuestionsArray.Length; i++)
-        {
-            string[] pAnswers = new string[4];
-            for(int j = 0; j < 4; j++)
-            {
-                pAnswers[j] = PossibleAnswers[i + j]; 
-            }
-
-            //construct the question
-            Question cQuestion = new Question(QuestionsArray[i],CorrectAnswer[i],pAnswers);
-
-            Debug.Log(cQuestion.question + " - " + cQuestion.correctAnsewer);
-
-            //add the element to the list
-            QuestionList.AddLast(cQuestion);
-        }
-
         nextQuestion();
 
     }
@@ -64,30 +41,34 @@ public class QuizzLogic : MonoBehaviour
     void nextQuestion()
     {
         //pick a question randomly
-        int n = Random.Range(0, QuestionList.Count);
-        Debug.Log("random:"+n);
-        currentQuestion = getElement(QuestionList, n);
+        int n = Random.Range(0, QuestionList.Count-1);
+        //Debug.Log("random:"+n);
+        currentQuestion = QuestionList[n];
 
         GameObject.Find("QuestionText").GetComponent<Text>().text = currentQuestion.question;
 
-        GameObject.Find("A1").GetComponent<Text>().text = currentQuestion.PossibleAnswers[0];
-        GameObject.Find("A2").GetComponent<Text>().text = currentQuestion.PossibleAnswers[1];
-        GameObject.Find("A3").GetComponent<Text>().text = currentQuestion.PossibleAnswers[2];
-        GameObject.Find("A4").GetComponent<Text>().text = currentQuestion.PossibleAnswers[3];
+        int cPlace = Random.Range(0,3)+1;
 
-    }
+        Debug.Log("A"+cPlace+"CA: "+currentQuestion.correctAnsewer);
 
-    Question getElement(LinkedList<Question> start, int index) //function to return a specific element from the list (I coudldn't find a get(index))
-    {
-        LinkedListNode<Question> cursor = start.First;
-        int counter = 0;
-        while (counter < index)
+        string cPlaceString = "A"+cPlace.ToString();
+
+        Debug.Log(cPlaceString);
+
+        GameObject.Find(cPlaceString).GetComponent<Text>().text = currentQuestion.correctAnsewer;
+
+        int c = 0;
+
+
+        for (int i = 0; i < 4; i++)
         {
-            cursor = cursor.Next;
-            counter++;
+            if (i != (cPlace-1))
+            {
+                GameObject.Find("A"+(i + 1)).GetComponent<Text>().text = currentQuestion.PossibleAnswers[c];
+                c++;
+            }
         }
-        Debug.Log(counter);
-        return cursor.Value;
+
     }
 
     public void SelectAnswer(Text text)
@@ -110,16 +91,6 @@ public class Question
 {
     //each question will have a list of possible answers, the correct answer and the question
     public string question;
-    public string[] PossibleAnswers = new string[4];
+    public string[] PossibleAnswers = new string[3];
     public string correctAnsewer;
-
-    public Question(string q, string cAnswer, string[] pAnswers) //Constructor for the Question data structure
-    {
-        this.question = q;
-        this.correctAnsewer = cAnswer;
-        for(int i = 0; i < pAnswers.Length; i++)
-        {
-            this.PossibleAnswers[i] = pAnswers[i];
-        }
-    }  
 }
