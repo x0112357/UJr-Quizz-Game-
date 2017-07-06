@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuizzLogic : MonoBehaviour
 {
-
     public int nPlayers; //Number of players variable
 
     public LinkedList<Question> QuestionList = new LinkedList<Question>(); //start by having a list of objects (question objects)
@@ -13,21 +13,22 @@ public class QuizzLogic : MonoBehaviour
     public string[] CorrectAnswer;
     public string[] PossibleAnswers;
 
-    UnityEngine.UI.Button button1;
-    UnityEngine.UI.Button button2;
-    UnityEngine.UI.Button button3;
-    UnityEngine.UI.Button button4;
+    Button button1;
+    Button button2;
+    Button button3;
+    Button button4;
 
     Question currentQuestion;
+
+    public List<Question> QuestionList2;
 
     // Use this for initialization
     void Start()
     {
-
-        button1 = GameObject.Find("B1").GetComponent<UnityEngine.UI.Button>();
-        button2 = GameObject.Find("B2").GetComponent<UnityEngine.UI.Button>();
-        button3 = GameObject.Find("B3").GetComponent<UnityEngine.UI.Button>();
-        button4 = GameObject.Find("B4").GetComponent<UnityEngine.UI.Button>();
+        button1 = GameObject.Find("B1").GetComponent<Button>();
+        button2 = GameObject.Find("B2").GetComponent<Button>();
+        button3 = GameObject.Find("B3").GetComponent<Button>();
+        button4 = GameObject.Find("B4").GetComponent<Button>();
 
         button1.onClick.AddListener(() => choseAnswer(1));
         button2.onClick.AddListener(() => choseAnswer(2));
@@ -67,18 +68,12 @@ public class QuizzLogic : MonoBehaviour
         Debug.Log("random:"+n);
         currentQuestion = getElement(QuestionList, n);
 
-        GameObject.Find("QuestionText").GetComponent<UnityEngine.UI.Text>().text = currentQuestion.question;
+        GameObject.Find("QuestionText").GetComponent<Text>().text = currentQuestion.question;
 
-        GameObject.Find("A1").GetComponent<UnityEngine.UI.Text>().text = currentQuestion.PossibleAnswers[0];
-        GameObject.Find("A2").GetComponent<UnityEngine.UI.Text>().text = currentQuestion.PossibleAnswers[1];
-        GameObject.Find("A3").GetComponent<UnityEngine.UI.Text>().text = currentQuestion.PossibleAnswers[2];
-        GameObject.Find("A4").GetComponent<UnityEngine.UI.Text>().text = currentQuestion.PossibleAnswers[3];
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        GameObject.Find("A1").GetComponent<Text>().text = currentQuestion.PossibleAnswers[0];
+        GameObject.Find("A2").GetComponent<Text>().text = currentQuestion.PossibleAnswers[1];
+        GameObject.Find("A3").GetComponent<Text>().text = currentQuestion.PossibleAnswers[2];
+        GameObject.Find("A4").GetComponent<Text>().text = currentQuestion.PossibleAnswers[3];
 
     }
 
@@ -94,8 +89,23 @@ public class QuizzLogic : MonoBehaviour
         Debug.Log(counter);
         return cursor.Value;
     }
+
+    public void SelectAnswer(Text text)
+    {
+        if (text.text.Equals(currentQuestion.correctAnsewer))
+        {
+            //scores points.
+            nextQuestion();
+        }
+        else
+        {
+            //does not score points.
+            nextQuestion();
+        }
+    }
 }
 
+[System.Serializable]
 public class Question
 {
     //each question will have a list of possible answers, the correct answer and the question
@@ -111,6 +121,5 @@ public class Question
         {
             this.PossibleAnswers[i] = pAnswers[i];
         }
-    }
-
+    }  
 }
