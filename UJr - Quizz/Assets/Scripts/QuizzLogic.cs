@@ -24,7 +24,7 @@ public class QuizzLogic : MonoBehaviour
 
     // Use this for initialization
     void Start()
-    {
+    {        
         button1 = GameObject.Find("B1").GetComponent<Button>();
         button2 = GameObject.Find("B2").GetComponent<Button>();
         button3 = GameObject.Find("B3").GetComponent<Button>();

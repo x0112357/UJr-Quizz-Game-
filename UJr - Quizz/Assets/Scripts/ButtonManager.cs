@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour {
 
@@ -32,6 +32,14 @@ public class ButtonManager : MonoBehaviour {
         isPaused = !isPaused;
         GameScreen.SetActive(!GameScreen.activeSelf);
         PauseScreen.SetActive(!PauseScreen.activeSelf);
+    }
+    public void ChooseChar()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void SelectChar()
+    {
+        SceneManager.LoadScene(1);
     }
     public void QuitGame()
     {
