@@ -2,40 +2,57 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour {
+public class PlayerManager : MonoBehaviour
+{
 
     public GameObject playerPos;
     public List<GameObject> PlayerList;
     public static GameObject currentPlayer;
+    public static GameObject currentScene;
 
     private GameObject aux;
 
     private int index;
+    private bool SceneSelect;
 
     public void Start()
     {
         index = 0;
         aux = Instantiate(PlayerList[index], playerPos.transform);
-        currentPlayer = PlayerList[index];
+        if (currentScene == null)
+        {
+            currentScene = PlayerList[index];
+            SceneSelect = true;
+        }
+        else
+        {
+            SceneSelect = false;
+        }
     }
     public void LeftArrow()
     {
-        if(index > 0)
+        if (index > 0)
         {
             Destroy(aux);
             index--;
             aux = Instantiate(PlayerList[index], playerPos.transform);
-            currentPlayer = PlayerList[index];
+            if(SceneSelect)
+                currentScene = PlayerList[index];
+            else
+                currentPlayer = PlayerList[index];
         }
     }
     public void RighArrow()
     {
-        if(index < PlayerList.Count - 1)
+        if (index < PlayerList.Count - 1)
         {
             Destroy(aux);
             index++;
             aux = Instantiate(PlayerList[index], playerPos.transform);
-            currentPlayer = PlayerList[index];
+            if (SceneSelect)
+                currentScene = PlayerList[index];
+            else
+                currentPlayer = PlayerList[index];
         }
     }
 }
