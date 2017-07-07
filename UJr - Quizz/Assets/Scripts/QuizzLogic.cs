@@ -7,8 +7,6 @@ public class QuizzLogic : MonoBehaviour
 {
     public int nPlayers; //Number of players variable
 
-    public static GameObject player = PlayerManager.currentPlayer;
-
     //public static Animator test;
 
     Question currentQuestion;
@@ -16,6 +14,10 @@ public class QuizzLogic : MonoBehaviour
     public static List<Question> QuestionList = new List<Question>();
 
     public int n = 0;
+
+    public static int score = 0;
+
+    Animator an;
 
     // Use this for initialization
     void Start()
@@ -73,18 +75,31 @@ public class QuizzLogic : MonoBehaviour
 
     public void SelectAnswer(Text text)
     {
+        an = SpawnPlayer.cPlayer.GetComponent<Animator>();
+
         if (text.text.Equals(currentQuestion.correctAnsewer))
         {
             //scores points.
-            //test.Play("win");
+            an.SetInteger("isWin", 1);
             nextQuestion();
+            score++;
         }
         else
         {
             //does not score points.
+            an.SetInteger("isLose", 1);
             nextQuestion();
         }
+
     }
+
+    IEnumerator waitForAnimation()
+    {
+        yield return new WaitForSeconds(3);
+    }
+
+    int loopCounter = 0;
+
 }
 
 [System.Serializable]

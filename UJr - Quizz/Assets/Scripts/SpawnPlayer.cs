@@ -6,7 +6,9 @@ public class SpawnPlayer : MonoBehaviour {
 
     public GameObject playerPos;
 
+    public static GameObject cPlayer;
+
 	void Start () {
-        Instantiate(PlayerManager.currentPlayer, playerPos.transform);
+        cPlayer = Instantiate(PlayerManager.currentPlayer, playerPos.transform);
 	}
 }
