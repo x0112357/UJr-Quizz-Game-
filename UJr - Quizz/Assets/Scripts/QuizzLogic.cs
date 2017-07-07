@@ -13,7 +13,7 @@ public class QuizzLogic : MonoBehaviour
 
     Question currentQuestion;
 
-    public List<Question> QuestionList;
+    public static List<Question> QuestionList = new List<Question>();
 
     public int n = 0;
 
@@ -21,6 +21,8 @@ public class QuizzLogic : MonoBehaviour
     void Start()
     {
         //test = player.GetComponent<Animator>();
+        Debug.Log(CategoryManager.ChoosenCategory.categoryName);
+        QuestionList = CategoryManager.ChoosenCategory.Category;
         nextQuestion();
 
     }
