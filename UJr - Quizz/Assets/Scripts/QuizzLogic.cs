@@ -7,28 +7,20 @@ public class QuizzLogic : MonoBehaviour
 {
     public int nPlayers; //Number of players variable
 
-    Button button1;
-    Button button2;
-    Button button3;
-    Button button4;
+    public static GameObject player = PlayerManager.currentPlayer;
+
+    //public static Animator test;
 
     Question currentQuestion;
 
     public List<Question> QuestionList;
 
+    public int n = 0;
+
     // Use this for initialization
     void Start()
-    {        
-        button1 = GameObject.Find("B1").GetComponent<Button>();
-        button2 = GameObject.Find("B2").GetComponent<Button>();
-        button3 = GameObject.Find("B3").GetComponent<Button>();
-        button4 = GameObject.Find("B4").GetComponent<Button>();
-
-        button1.onClick.AddListener(() => choseAnswer(1));
-        button2.onClick.AddListener(() => choseAnswer(2));
-        button3.onClick.AddListener(() => choseAnswer(3));
-        button4.onClick.AddListener(() => choseAnswer(4));
-
+    {
+        //test = player.GetComponent<Animator>();
         nextQuestion();
 
     }
@@ -40,10 +32,16 @@ public class QuizzLogic : MonoBehaviour
 
     void nextQuestion()
     {
+        if(n > QuestionList.Count - 1)
+        {
+            //go to Scene for the final
+        }
         //pick a question randomly
-        int n = Random.Range(0, QuestionList.Count-1);
+        //int n = Random.Range(0, QuestionList.Count-1);
         //Debug.Log("random:"+n);
-        currentQuestion = QuestionList[n];
+        currentQuestion = QuestionList[n]; //shuffle list before this
+
+        n++;
 
         GameObject.Find("QuestionText").GetComponent<Text>().text = currentQuestion.question;
 
@@ -76,6 +74,7 @@ public class QuizzLogic : MonoBehaviour
         if (text.text.Equals(currentQuestion.correctAnsewer))
         {
             //scores points.
+            //test.Play("win");
             nextQuestion();
         }
         else
