@@ -14,8 +14,8 @@ public class CategoryManager : MonoBehaviour
         {
             ChoosenCategory = Categories[i];
         }
-        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
         Debug.Log(ChoosenCategory.categoryName);
+        ButtonManager.AdvanceScene();
     }
 
     public void Start()

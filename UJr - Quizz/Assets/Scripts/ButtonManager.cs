@@ -27,6 +27,14 @@ public class ButtonManager : MonoBehaviour {
         }
     }
 
+    public static void AdvanceScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void AdvanceSceneNonStatic()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
     public void TogglePause()
     {
         isPaused = !isPaused;
@@ -40,10 +48,6 @@ public class ButtonManager : MonoBehaviour {
     public void ChooseChar()
     {
         SceneManager.LoadScene(1);
-    }
-    public void SelectChar()
-    {
-        SceneManager.LoadScene(2);
     }
     public void QuitGame()
     {
