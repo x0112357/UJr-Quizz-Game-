@@ -33,13 +33,17 @@ public class ButtonManager : MonoBehaviour {
         GameScreen.SetActive(!GameScreen.activeSelf);
         PauseScreen.SetActive(!PauseScreen.activeSelf);
     }
-    public void ChooseChar()
+    public void ChooseTheme()
     {
         SceneManager.LoadScene(0);
     }
-    public void SelectChar()
+    public void ChooseChar()
     {
         SceneManager.LoadScene(1);
+    }
+    public void SelectChar()
+    {
+        SceneManager.LoadScene(2);
     }
     public void QuitGame()
     {
