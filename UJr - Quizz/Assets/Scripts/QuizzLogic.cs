@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class QuizzLogic : MonoBehaviour
 {
@@ -36,9 +37,10 @@ public class QuizzLogic : MonoBehaviour
 
     void nextQuestion()
     {
-        if(n > QuestionList.Count - 1)
+        if(n > (QuestionList.Count - 1))
         {
             //go to Scene for the final
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         //pick a question randomly
         //int n = Random.Range(0, QuestionList.Count-1);
