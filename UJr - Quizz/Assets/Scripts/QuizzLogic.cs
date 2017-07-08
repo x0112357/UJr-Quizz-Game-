@@ -19,10 +19,12 @@ public class QuizzLogic : MonoBehaviour
     public static int score = 0;
 
     Animator an;
+    bool hasAnswered = false;
 
     // Use this for initialization
     void Start()
     {
+        hasAnswered = false;
         //test = player.GetComponent<Animator>();
         Debug.Log(CategoryManager.ChoosenCategory.categoryName);
         QuestionList = CategoryManager.ChoosenCategory.Category;
@@ -37,7 +39,7 @@ public class QuizzLogic : MonoBehaviour
 
     void nextQuestion()
     {
-        if(n > (QuestionList.Count - 1))
+        if (n > (QuestionList.Count - 1))
         {
             //go to Scene for the final
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -51,11 +53,11 @@ public class QuizzLogic : MonoBehaviour
 
         GameObject.Find("QuestionText").GetComponent<Text>().text = currentQuestion.question;
 
-        int cPlace = Random.Range(0,3)+1;
+        int cPlace = Random.Range(0, 3) + 1;
 
-        Debug.Log("A"+cPlace+"CA: "+currentQuestion.correctAnsewer);
+        Debug.Log("A" + cPlace + "CA: " + currentQuestion.correctAnsewer);
 
-        string cPlaceString = "A"+cPlace.ToString();
+        string cPlaceString = "A" + cPlace.ToString();
 
         Debug.Log(cPlaceString);
 
@@ -66,9 +68,9 @@ public class QuizzLogic : MonoBehaviour
 
         for (int i = 0; i < 4; i++)
         {
-            if (i != (cPlace-1))
+            if (i != (cPlace - 1))
             {
-                GameObject.Find("A"+(i + 1)).GetComponent<Text>().text = currentQuestion.PossibleAnswers[c];
+                GameObject.Find("A" + (i + 1)).GetComponent<Text>().text = currentQuestion.PossibleAnswers[c];
                 c++;
             }
         }
@@ -77,30 +79,35 @@ public class QuizzLogic : MonoBehaviour
 
     public void SelectAnswer(Text text)
     {
-        an = SpawnPlayer.cPlayer.GetComponent<Animator>();
-
-        if (text.text.Equals(currentQuestion.correctAnsewer))
+        if (!hasAnswered)
         {
-            //scores points.
-            an.SetInteger("isWin", 1);
-            nextQuestion();
-            score++;
-        }
-        else
-        {
-            //does not score points.
-            an.SetInteger("isLose", 1);
-            nextQuestion();
-        }
+            an = SpawnPlayer.cPlayer.GetComponent<Animator>();
 
+            if (text.text.Equals(currentQuestion.correctAnsewer))
+            {
+                //scores points.
+                an.SetInteger("isWin", 1);
+                StartCoroutine(WaitForAnimation());
+
+                score++;
+            }
+            else
+            {
+                //does not score points.
+                an.SetInteger("isLose", 1);
+                StartCoroutine(WaitForAnimation());
+            }
+        }
     }
 
-    IEnumerator waitForAnimation()
+    IEnumerator WaitForAnimation()
     {
-        yield return new WaitForSeconds(3);
+        hasAnswered = true;
+        yield return new WaitForSecondsRealtime(3);
+        nextQuestion();
+        hasAnswered = false;
     }
 
-    int loopCounter = 0;
 
 }
 

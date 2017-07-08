@@ -24,8 +24,9 @@ public class PlayerManager : MonoBehaviour
             currentScene = PlayerList[index];
             SceneSelect = true;
         }
-        else
+        else if (currentPlayer == null)
         {
+            currentPlayer = PlayerList[index];
             SceneSelect = false;
         }
     }
