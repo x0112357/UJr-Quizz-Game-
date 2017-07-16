@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 9596c548cf3e7b84d9d57c717a27e0e7
-timeCreated: 1500211710
-=======
-guid: 5ff857551db10cf41bb3993cc6afa3be
-timeCreated: 1500212376
->>>>>>> Stashed changes
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -83,15 +76,9 @@ ModelImporter:
     400068: tail9
     400070: torax
     4300000: Cube
-    7400000: Default Take
-<<<<<<< Updated upstream
-    7400002: Win
-=======
-    7400002: ArmatureAction
->>>>>>> Stashed changes
-    7400004: idle
-    7400006: losing
-    7400008: winning_001
+    7400000: Win
+    7400002: idle
+    7400004: losing
     9500000: //RootNode
     13700000: Cube
   materials:
@@ -116,7 +103,6 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-<<<<<<< Updated upstream
     clipAnimations:
     - serializedVersion: 16
       name: Win
@@ -418,13 +404,10 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-=======
-    clipAnimations: []
->>>>>>> Stashed changes
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
