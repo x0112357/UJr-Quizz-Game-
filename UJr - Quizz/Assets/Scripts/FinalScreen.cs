@@ -10,7 +10,7 @@ public class FinalScreen : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        GameObject.Find("Score").GetComponent<Text>().text = "Your Score: " + QuizzLogic.score;
+        GameObject.Find("Score").GetComponent<Text>().text = "Your Score: " + QuizzLogic.score +" | "+(QuizzLogic.QuestionList.Count);
         QuizzLogic.score = 0;
     }
 
