@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: e6c676dccdfbb52478d7e84ac2b99778
+timeCreated: 1500043579
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: antebra_o_L
+    100002: antebra_o_R
+    100004: Armature
+    100006: cabe_a
+    100008: canela_L
+    100010: canela_R
+    100012: Cube
+    100014: Cube_001
+    100016: Cube_011
+    100018: //RootNode
+    100020: espinha
+    100022: m_o_L
+    100024: m_o_R
+    100026: ombro_L
+    100028: ombro_R
+    100030: p__L
+    100032: p__R
+    100034: pelvis
+    100036: perna_L
+    100038: perna_R
+    100040: pesco_o
+    100042: torax
+    100044: torax_001
+    100046: Torus
+    100048: umero_L
+    100050: umero_R
+    400000: antebra_o_L
+    400002: antebra_o_R
+    400004: Armature
+    400006: cabe_a
+    400008: canela_L
+    400010: canela_R
+    400012: Cube
+    400014: Cube_001
+    400016: Cube_011
+    400018: //RootNode
+    400020: espinha
+    400022: m_o_L
+    400024: m_o_R
+    400026: ombro_L
+    400028: ombro_R
+    400030: p__L
+    400032: p__R
+    400034: pelvis
+    400036: perna_L
+    400038: perna_R
+    400040: pesco_o
+    400042: torax
+    400044: torax_001
+    400046: Torus
+    400048: umero_L
+    400050: umero_R
+    4300000: Cube_001
+    4300002: Torus
+    4300004: Cube
+    4300006: Cube_011
+    7400000: Default Take
+    7400002: idle
+    7400004: perder
+    7400006: Vencer
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Cube_001
+    13700004: Cube_011
+    13700006: Torus
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

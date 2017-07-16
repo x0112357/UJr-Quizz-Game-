@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: eff79f26ec0bb814c8be901c5ff8cb5c
+timeCreated: 1500040749
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: antebraco_L
+    100002: antebraco_R
+    100004: Armature
+    100006: beard
+    100008: body
+    100010: cabeca
+    100012: dress
+    100014: espinha
+    100016: femur_L
+    100018: femur_R
+    100020: //RootNode
+    100022: helmet
+    100024: mao_L
+    100026: mao_R
+    100028: ombro_L
+    100030: ombro_R
+    100032: pe_L
+    100034: pe_R
+    100036: pelvis
+    100038: pescoco
+    100040: tibia_L
+    100042: tibia_R
+    100044: torax
+    100046: umero_L
+    100048: umero_R
+    400000: antebraco_L
+    400002: antebraco_R
+    400004: Armature
+    400006: beard
+    400008: body
+    400010: cabeca
+    400012: dress
+    400014: espinha
+    400016: femur_L
+    400018: femur_R
+    400020: //RootNode
+    400022: helmet
+    400024: mao_L
+    400026: mao_R
+    400028: ombro_L
+    400030: ombro_R
+    400032: pe_L
+    400034: pe_R
+    400036: pelvis
+    400038: pescoco
+    400040: tibia_L
+    400042: tibia_R
+    400044: torax
+    400046: umero_L
+    400048: umero_R
+    4300000: dress
+    4300002: body
+    4300004: helmet
+    4300006: beard
+    7400000: Default Take
+    7400002: DERROTA__def_
+    7400004: i_d_l_e__def__
+    7400006: selection__def__
+    7400008: VITORIA__NAO_USAR_
+    7400010: win__def__
+    9500000: //RootNode
+    13700000: beard
+    13700002: body
+    13700004: dress
+    13700006: helmet
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: DERROTA__def_
+      takeName: DERROTA__def_
+      firstFrame: -1
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pelvis
+        weight: 1
+      - path: Armature/pelvis/espinha
+        weight: 1
+      - path: Armature/pelvis/espinha/torax
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L/antebraco_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L/antebraco_L/mao_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R/antebraco_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R/antebraco_R/mao_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/pescoco
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/pescoco/cabeca
+        weight: 1
+      - path: Armature/pelvis/femur_L
+        weight: 1
+      - path: Armature/pelvis/femur_L/tibia_L
+        weight: 1
+      - path: Armature/pelvis/femur_L/tibia_L/pe_L
+        weight: 1
+      - path: Armature/pelvis/femur_R
+        weight: 1
+      - path: Armature/pelvis/femur_R/tibia_R
+        weight: 1
+      - path: Armature/pelvis/femur_R/tibia_R/pe_R
+        weight: 1
+      - path: beard
+        weight: 1
+      - path: body
+        weight: 1
+      - path: dress
+        weight: 1
+      - path: helmet
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: i_d_l_e__def__
+      takeName: i_d_l_e__def__
+      firstFrame: -1
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pelvis
+        weight: 1
+      - path: Armature/pelvis/espinha
+        weight: 1
+      - path: Armature/pelvis/espinha/torax
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L/antebraco_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L/antebraco_L/mao_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R/antebraco_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R/antebraco_R/mao_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/pescoco
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/pescoco/cabeca
+        weight: 1
+      - path: Armature/pelvis/femur_L
+        weight: 1
+      - path: Armature/pelvis/femur_L/tibia_L
+        weight: 1
+      - path: Armature/pelvis/femur_L/tibia_L/pe_L
+        weight: 1
+      - path: Armature/pelvis/femur_R
+        weight: 1
+      - path: Armature/pelvis/femur_R/tibia_R
+        weight: 1
+      - path: Armature/pelvis/femur_R/tibia_R/pe_R
+        weight: 1
+      - path: beard
+        weight: 1
+      - path: body
+        weight: 1
+      - path: dress
+        weight: 1
+      - path: helmet
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: selection__def__
+      takeName: selection__def__
+      firstFrame: -1
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pelvis
+        weight: 1
+      - path: Armature/pelvis/espinha
+        weight: 1
+      - path: Armature/pelvis/espinha/torax
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L/antebraco_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L/antebraco_L/mao_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R/antebraco_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R/antebraco_R/mao_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/pescoco
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/pescoco/cabeca
+        weight: 1
+      - path: Armature/pelvis/femur_L
+        weight: 1
+      - path: Armature/pelvis/femur_L/tibia_L
+        weight: 1
+      - path: Armature/pelvis/femur_L/tibia_L/pe_L
+        weight: 1
+      - path: Armature/pelvis/femur_R
+        weight: 1
+      - path: Armature/pelvis/femur_R/tibia_R
+        weight: 1
+      - path: Armature/pelvis/femur_R/tibia_R/pe_R
+        weight: 1
+      - path: beard
+        weight: 1
+      - path: body
+        weight: 1
+      - path: dress
+        weight: 1
+      - path: helmet
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: win__def__
+      takeName: win__def__
+      firstFrame: -1
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/pelvis
+        weight: 1
+      - path: Armature/pelvis/espinha
+        weight: 1
+      - path: Armature/pelvis/espinha/torax
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L/antebraco_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_L/umero_L/antebraco_L/mao_L
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R/antebraco_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/ombro_R/umero_R/antebraco_R/mao_R
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/pescoco
+        weight: 1
+      - path: Armature/pelvis/espinha/torax/pescoco/cabeca
+        weight: 1
+      - path: Armature/pelvis/femur_L
+        weight: 1
+      - path: Armature/pelvis/femur_L/tibia_L
+        weight: 1
+      - path: Armature/pelvis/femur_L/tibia_L/pe_L
+        weight: 1
+      - path: Armature/pelvis/femur_R
+        weight: 1
+      - path: Armature/pelvis/femur_R/tibia_R
+        weight: 1
+      - path: Armature/pelvis/femur_R/tibia_R/pe_R
+        weight: 1
+      - path: beard
+        weight: 1
+      - path: body
+        weight: 1
+      - path: dress
+        weight: 1
+      - path: helmet
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

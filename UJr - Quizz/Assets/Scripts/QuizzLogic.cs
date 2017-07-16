@@ -103,7 +103,7 @@ public class QuizzLogic : MonoBehaviour
     IEnumerator WaitForAnimation()
     {
         hasAnswered = true;
-        yield return new WaitForSecondsRealtime(3);
+        yield return new WaitForSecondsRealtime(3);        
         nextQuestion();
         hasAnswered = false;
     }
