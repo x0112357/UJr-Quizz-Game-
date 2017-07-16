@@ -25,8 +25,7 @@ public class ButtonManager : MonoBehaviour {
             GameScreen.SetActive(false);
             isPaused = true;
         }
-    }
-
+    } 
     public static void AdvanceScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -52,5 +51,5 @@ public class ButtonManager : MonoBehaviour {
     public void QuitGame()
     {
         Application.Quit();
-    }
+    }  
 }

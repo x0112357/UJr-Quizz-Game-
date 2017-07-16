@@ -10,6 +10,7 @@ public class PlayerManager : MonoBehaviour
     public static GameObject currentPlayer;
     public static GameObject currentScene;
 
+    private Animator animator;
     private GameObject aux;
 
     private int index;
@@ -37,7 +38,7 @@ public class PlayerManager : MonoBehaviour
             Destroy(aux);
             index--;
             aux = Instantiate(PlayerList[index], playerPos.transform);
-            if(SceneSelect)
+            if (SceneSelect)
                 currentScene = PlayerList[index];
             else
                 currentPlayer = PlayerList[index];
@@ -55,5 +56,17 @@ public class PlayerManager : MonoBehaviour
             else
                 currentPlayer = PlayerList[index];
         }
+    }
+
+    public void SelectPlayer()
+    {
+        animator = aux.GetComponent<Animator>();
+        animator.SetInteger("isSelected", 1);
+        StartCoroutine(SelectPlayerStop());
+    }
+    IEnumerator SelectPlayerStop()
+    {
+        yield return new WaitForSecondsRealtime(3);
+        ButtonManager.AdvanceScene();
     }
 }

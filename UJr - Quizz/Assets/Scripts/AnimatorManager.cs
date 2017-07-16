@@ -10,7 +10,6 @@ public class AnimatorManager : MonoBehaviour {
     {
         animator = this.GetComponentInChildren<Animator>();
     }
-
     public void EndAnimation()
     {
         animator.SetInteger("isLose", 0);
