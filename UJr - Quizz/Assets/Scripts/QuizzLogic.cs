@@ -42,36 +42,41 @@ public class QuizzLogic : MonoBehaviour
         if (n > (QuestionList.Count - 1))
         {
             //go to Scene for the final
+            Debug.Log("N counter if -" + n);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        //pick a question randomly
-        //int n = Random.Range(0, QuestionList.Count-1);
-        //Debug.Log("random:"+n);
-        currentQuestion = QuestionList[n]; //shuffle list before this
-
-        n++;
-
-        GameObject.Find("QuestionText").GetComponent<Text>().text = currentQuestion.question;
-
-        int cPlace = Random.Range(0, 3) + 1;
-
-        Debug.Log("A" + cPlace + "CA: " + currentQuestion.correctAnsewer);
-
-        string cPlaceString = "A" + cPlace.ToString();
-
-        Debug.Log(cPlaceString);
-
-        GameObject.Find(cPlaceString).GetComponent<Text>().text = currentQuestion.correctAnsewer;
-
-        int c = 0;
-
-
-        for (int i = 0; i < 4; i++)
+        else
         {
-            if (i != (cPlace - 1))
+            Debug.Log("N counter else -" + n);
+            //pick a question randomly
+            //int n = Random.Range(0, QuestionList.Count-1);
+            //Debug.Log("random:"+n);
+            currentQuestion = QuestionList[n]; //shuffle list before this
+
+            n++;
+
+            GameObject.Find("QuestionText").GetComponent<Text>().text = currentQuestion.question;
+
+            int cPlace = Random.Range(0, 3) + 1;
+
+            Debug.Log("A" + cPlace + "CA: " + currentQuestion.correctAnsewer);
+
+            string cPlaceString = "A" + cPlace.ToString();
+
+            Debug.Log(cPlaceString);
+
+            GameObject.Find(cPlaceString).GetComponent<Text>().text = currentQuestion.correctAnsewer;
+
+            int c = 0;
+
+
+            for (int i = 0; i < 4; i++)
             {
-                GameObject.Find("A" + (i + 1)).GetComponent<Text>().text = currentQuestion.PossibleAnswers[c];
-                c++;
+                if (i != (cPlace - 1))
+                {
+                    GameObject.Find("A" + (i + 1)).GetComponent<Text>().text = currentQuestion.PossibleAnswers[c];
+                    c++;
+                }
             }
         }
 

@@ -4,17 +4,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class FinalScreen : MonoBehaviour {
+public class FinalScreen : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-        GameObject.Find("Score").GetComponent<Text>().text = "Your Score: "+QuizzLogic.score;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // Use this for initialization
+    void Start()
+    {
+        GameObject.Find("Score").GetComponent<Text>().text = "Your Score: " + QuizzLogic.score;
+        QuizzLogic.score = 0;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
     public void tryAgain()
     {
