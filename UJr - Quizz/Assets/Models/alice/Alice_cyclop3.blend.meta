@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 9596c548cf3e7b84d9d57c717a27e0e7
+timeCreated: 1500211710
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: antebra_o_L
+    100004: antebra_o_R
+    100006: Armature
+    100008: Bone
+    100010: Bone_007
+    100012: bra_o_L
+    100014: bra_o_R
+    100016: cabe_a
+    100018: canela_L
+    100020: canela_R
+    100022: coluna
+    100024: Cube
+    100026: femure_L
+    100028: femure_R
+    100030: ombro_L
+    100032: ombro_R_001
+    100034: pesco_o
+    100036: tail1
+    100038: tail10
+    100040: tail11
+    100042: tail12
+    100044: tail13
+    100046: tail14
+    100048: tail15
+    100050: tail16
+    100052: tail16_001
+    100054: tail2
+    100056: tail3
+    100058: tail4
+    100060: tail5
+    100062: tail6
+    100064: tail7
+    100066: tail8
+    100068: tail9
+    100070: torax
+    400000: //RootNode
+    400002: antebra_o_L
+    400004: antebra_o_R
+    400006: Armature
+    400008: Bone
+    400010: Bone_007
+    400012: bra_o_L
+    400014: bra_o_R
+    400016: cabe_a
+    400018: canela_L
+    400020: canela_R
+    400022: coluna
+    400024: Cube
+    400026: femure_L
+    400028: femure_R
+    400030: ombro_L
+    400032: ombro_R_001
+    400034: pesco_o
+    400036: tail1
+    400038: tail10
+    400040: tail11
+    400042: tail12
+    400044: tail13
+    400046: tail14
+    400048: tail15
+    400050: tail16
+    400052: tail16_001
+    400054: tail2
+    400056: tail3
+    400058: tail4
+    400060: tail5
+    400062: tail6
+    400064: tail7
+    400066: tail8
+    400068: tail9
+    400070: torax
+    4300000: Cube
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: idle
+    7400006: losing
+    7400008: winning_001
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
