@@ -13,9 +13,14 @@ public class CategoryManager : MonoBehaviour
         if (i < Categories.Count - 1)
         {
             ChoosenCategory = Categories[i];
+
+            Debug.Log(ChoosenCategory.categoryName);
+            ButtonManager.AdvanceScene();
         }
-        Debug.Log(ChoosenCategory.categoryName);
-        ButtonManager.AdvanceScene();
+        else
+        {
+            GameObject.Find("ErrorMessage").GetComponent<Text>().text = "Esta categoria ainda não está disponível";
+        }
     }
 
     public void Start()

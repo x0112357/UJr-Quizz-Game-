@@ -92,6 +92,8 @@ public class QuizzLogic : MonoBehaviour
             {
                 //scores points.
                 an.SetInteger("isWin", 1);
+                GameObject.Find("AnswerState").GetComponent<Text>().text = "Correto!";
+                GameObject.Find("AnswerState").GetComponent<Text>().color = Color.green;
                 StartCoroutine(WaitForAnimation());
 
                 score++;
@@ -100,6 +102,8 @@ public class QuizzLogic : MonoBehaviour
             {
                 //does not score points.
                 an.SetInteger("isLose", 1);
+                GameObject.Find("AnswerState").GetComponent<Text>().text = "Errado";
+                GameObject.Find("AnswerState").GetComponent<Text>().color = Color.red;
                 StartCoroutine(WaitForAnimation());
             }
         }
@@ -108,8 +112,9 @@ public class QuizzLogic : MonoBehaviour
     IEnumerator WaitForAnimation()
     {
         hasAnswered = true;
-        yield return new WaitForSecondsRealtime(3);        
+        yield return new WaitForSecondsRealtime(3);
         nextQuestion();
+        GameObject.Find("AnswerState").GetComponent<Text>().text = "";
         hasAnswered = false;
     }
 
