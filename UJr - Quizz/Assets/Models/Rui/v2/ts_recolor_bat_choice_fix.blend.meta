@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 0e4638cd810246d4993dbd488eace98c
+timeCreated: 1500649628
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Abdminal
+    100002: Armature
+    100004: Bone_003
+    100006: Chest
+    100008: Elbow_L
+    100010: Elbow_R
+    100012: Elkraps_Thgiliwt
+    100014: Elkraps_Thgiliwt_MeshPart0
+    100016: Elkraps_Thgiliwt_MeshPart1
+    100018: Fore_Hoof_L
+    100020: Fore_Hoof_R
+    100022: Fore_Toe_L
+    100024: Fore_Toe_R
+    100026: Hind_Hoof_L
+    100028: Hind_Hoof_R
+    100030: Hind_Toe_L
+    100032: Hind_Toe_R
+    100034: Neck
+    100036: Shin_L
+    100038: Shin_R
+    100040: Tail1
+    100042: Tail2
+    100044: Tail3
+    100046: Tail4
+    100048: Thigh_L
+    100050: Thigh_R
+    100052: //RootNode
+    100054: Wing1_L
+    100056: Wing1_R
+    100058: Wing2_L
+    100060: Wing2_L_001
+    100062: Wing2_R
+    100064: Wing2_R_001
+    100066: Wing3_L
+    100068: Wing3_L_001
+    100070: Wing3_L_002
+    100072: Wing3_R
+    100074: Wing3_R_001
+    100076: Wing3_R_002
+    100078: Wing4_L
+    100080: Wing4_L_001
+    100082: Wing4_R
+    100084: Wing4_R_001
+    400000: Abdminal
+    400002: Armature
+    400004: Bone_003
+    400006: Chest
+    400008: Elbow_L
+    400010: Elbow_R
+    400012: Elkraps_Thgiliwt
+    400014: Elkraps_Thgiliwt_MeshPart0
+    400016: Elkraps_Thgiliwt_MeshPart1
+    400018: Fore_Hoof_L
+    400020: Fore_Hoof_R
+    400022: Fore_Toe_L
+    400024: Fore_Toe_R
+    400026: Hind_Hoof_L
+    400028: Hind_Hoof_R
+    400030: Hind_Toe_L
+    400032: Hind_Toe_R
+    400034: Neck
+    400036: Shin_L
+    400038: Shin_R
+    400040: Tail1
+    400042: Tail2
+    400044: Tail3
+    400046: Tail4
+    400048: Thigh_L
+    400050: Thigh_R
+    400052: //RootNode
+    400054: Wing1_L
+    400056: Wing1_R
+    400058: Wing2_L
+    400060: Wing2_L_001
+    400062: Wing2_R
+    400064: Wing2_R_001
+    400066: Wing3_L
+    400068: Wing3_L_001
+    400070: Wing3_L_002
+    400072: Wing3_R
+    400074: Wing3_R_001
+    400076: Wing3_R_002
+    400078: Wing4_L
+    400080: Wing4_L_001
+    400082: Wing4_R
+    400084: Wing4_R_001
+    4300000: Elkraps_Thgiliwt_MeshPart0
+    4300002: Elkraps_Thgiliwt_MeshPart1
+    7400000: Default Take
+    7400002: ArmatureAction_003
+    9500000: //RootNode
+    13700000: Elkraps_Thgiliwt_MeshPart0
+    13700002: Elkraps_Thgiliwt_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

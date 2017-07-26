@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: fb4f2f29efc4234458790309feafbebb
+timeCreated: 1500632795
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Anteperna_L
+    100002: Anteperna_R
+    100004: Armature_A
+    100006: Armature_B
+    100008: Armature_C
+    100010: Big_10_L
+    100012: Big_10_R
+    100014: Big_11_L
+    100016: Big_11_R
+    100018: Big_12_L
+    100020: Big_12_R
+    100022: Big_13_L
+    100024: Big_13_R
+    100026: Big_14_L
+    100028: Big_14_R
+    100030: Big_15_L
+    100032: Big_15_R
+    100034: Big_16_L
+    100036: Big_16_R
+    100038: Big_17_L
+    100040: Big_17_R
+    100042: Big_18_L
+    100044: Big_18_R
+    100046: Big_19_L
+    100048: Big_19_R
+    100050: Big_1_L
+    100052: Big_1_R
+    100054: Big_20_L
+    100056: Big_20_R
+    100058: Big_21_L
+    100060: Big_21_R
+    100062: Big_22_L
+    100064: Big_22_R
+    100066: Big_23_L
+    100068: Big_23_R
+    100070: Big_24_L
+    100072: Big_24_R
+    100074: Big_2_L
+    100076: Big_2_R
+    100078: Big_3_L
+    100080: Big_3_R
+    100082: Big_4_L
+    100084: Big_4_R
+    100086: Big_5_L
+    100088: Big_5_R
+    100090: Big_6_L
+    100092: Big_6_R
+    100094: Big_7_L
+    100096: Big_7_R
+    100098: Big_8_L
+    100100: Big_8_R
+    100102: Big_9_L
+    100104: Big_9_R
+    100106: Bigode
+    100108: Chap_u
+    100110: Chap_u_0
+    100112: Corpo
+    100114: CorpoI
+    100116: CorpoM
+    100118: CorpoS
+    100120: //RootNode
+    100122: Pe_L
+    100124: Pe_R
+    100126: Perna_L
+    100128: Perna_R
+    400000: Anteperna_L
+    400002: Anteperna_R
+    400004: Armature_A
+    400006: Armature_B
+    400008: Armature_C
+    400010: Big_10_L
+    400012: Big_10_R
+    400014: Big_11_L
+    400016: Big_11_R
+    400018: Big_12_L
+    400020: Big_12_R
+    400022: Big_13_L
+    400024: Big_13_R
+    400026: Big_14_L
+    400028: Big_14_R
+    400030: Big_15_L
+    400032: Big_15_R
+    400034: Big_16_L
+    400036: Big_16_R
+    400038: Big_17_L
+    400040: Big_17_R
+    400042: Big_18_L
+    400044: Big_18_R
+    400046: Big_19_L
+    400048: Big_19_R
+    400050: Big_1_L
+    400052: Big_1_R
+    400054: Big_20_L
+    400056: Big_20_R
+    400058: Big_21_L
+    400060: Big_21_R
+    400062: Big_22_L
+    400064: Big_22_R
+    400066: Big_23_L
+    400068: Big_23_R
+    400070: Big_24_L
+    400072: Big_24_R
+    400074: Big_2_L
+    400076: Big_2_R
+    400078: Big_3_L
+    400080: Big_3_R
+    400082: Big_4_L
+    400084: Big_4_R
+    400086: Big_5_L
+    400088: Big_5_R
+    400090: Big_6_L
+    400092: Big_6_R
+    400094: Big_7_L
+    400096: Big_7_R
+    400098: Big_8_L
+    400100: Big_8_R
+    400102: Big_9_L
+    400104: Big_9_R
+    400106: Bigode
+    400108: Chap_u
+    400110: Chap_u_0
+    400112: Corpo
+    400114: CorpoI
+    400116: CorpoM
+    400118: CorpoS
+    400120: //RootNode
+    400122: Pe_L
+    400124: Pe_R
+    400126: Perna_L
+    400128: Perna_R
+    4300000: Chap_u
+    4300002: Corpo
+    4300004: Bigode
+    7400000: Default Take
+    7400002: Idle_Big
+    7400004: Idle_Bod
+    7400006: Idle_Chap
+    7400008: Lose_Big
+    7400010: Lose_Bod
+    7400012: Lose_Chap
+    7400014: Select_Big
+    7400016: Select_Bod
+    7400018: Select_Chap
+    7400020: Win_Big
+    7400022: Win_Bod
+    7400024: Win_Chap
+    7400026: Idle
+    7400028: Lose
+    7400030: Select
+    7400032: Win
+    9500000: //RootNode
+    13700000: Bigode
+    13700002: Chap_u
+    13700004: Corpo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: -1
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_A
+        weight: 1
+      - path: Armature_A/Big_1_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L/Big_23_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L/Big_23_L/Big_24_L
+        weight: 1
+      - path: Armature_A/Big_1_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R/Big_23_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R/Big_23_R/Big_24_R
+        weight: 1
+      - path: Armature_A/Chap_u_0
+        weight: 1
+      - path: Armature_A/CorpoI
+        weight: 1
+      - path: Armature_A/CorpoI/CorpoM
+        weight: 1
+      - path: Armature_A/CorpoI/CorpoM/CorpoS
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L/Anteperna_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L/Anteperna_L/Pe_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R/Anteperna_R
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R/Anteperna_R/Pe_R
+        weight: 1
+      - path: Bigode
+        weight: 1
+      - path: Chap_u
+        weight: 1
+      - path: Corpo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lose
+      takeName: Lose
+      firstFrame: -1
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_A
+        weight: 1
+      - path: Armature_A/Big_1_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L/Big_23_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L/Big_23_L/Big_24_L
+        weight: 1
+      - path: Armature_A/Big_1_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R/Big_23_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R/Big_23_R/Big_24_R
+        weight: 1
+      - path: Armature_A/Chap_u_0
+        weight: 1
+      - path: Armature_A/CorpoI
+        weight: 1
+      - path: Armature_A/CorpoI/CorpoM
+        weight: 1
+      - path: Armature_A/CorpoI/CorpoM/CorpoS
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L/Anteperna_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L/Anteperna_L/Pe_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R/Anteperna_R
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R/Anteperna_R/Pe_R
+        weight: 1
+      - path: Bigode
+        weight: 1
+      - path: Chap_u
+        weight: 1
+      - path: Corpo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Select
+      takeName: Select
+      firstFrame: -1
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_A
+        weight: 1
+      - path: Armature_A/Big_1_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L/Big_23_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L/Big_23_L/Big_24_L
+        weight: 1
+      - path: Armature_A/Big_1_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R/Big_23_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R/Big_23_R/Big_24_R
+        weight: 1
+      - path: Armature_A/Chap_u_0
+        weight: 1
+      - path: Armature_A/CorpoI
+        weight: 1
+      - path: Armature_A/CorpoI/CorpoM
+        weight: 1
+      - path: Armature_A/CorpoI/CorpoM/CorpoS
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L/Anteperna_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L/Anteperna_L/Pe_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R/Anteperna_R
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R/Anteperna_R/Pe_R
+        weight: 1
+      - path: Bigode
+        weight: 1
+      - path: Chap_u
+        weight: 1
+      - path: Corpo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Win
+      takeName: Win
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_A
+        weight: 1
+      - path: Armature_A/Big_1_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L/Big_23_L
+        weight: 1
+      - path: Armature_A/Big_1_L/Big_2_L/Big_3_L/Big_4_L/Big_5_L/Big_6_L/Big_7_L/Big_8_L/Big_9_L/Big_10_L/Big_11_L/Big_12_L/Big_13_L/Big_14_L/Big_15_L/Big_16_L/Big_17_L/Big_18_L/Big_19_L/Big_20_L/Big_21_L/Big_22_L/Big_23_L/Big_24_L
+        weight: 1
+      - path: Armature_A/Big_1_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R/Big_23_R
+        weight: 1
+      - path: Armature_A/Big_1_R/Big_2_R/Big_3_R/Big_4_R/Big_5_R/Big_6_R/Big_7_R/Big_8_R/Big_9_R/Big_10_R/Big_11_R/Big_12_R/Big_13_R/Big_14_R/Big_15_R/Big_16_R/Big_17_R/Big_18_R/Big_19_R/Big_20_R/Big_21_R/Big_22_R/Big_23_R/Big_24_R
+        weight: 1
+      - path: Armature_A/Chap_u_0
+        weight: 1
+      - path: Armature_A/CorpoI
+        weight: 1
+      - path: Armature_A/CorpoI/CorpoM
+        weight: 1
+      - path: Armature_A/CorpoI/CorpoM/CorpoS
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L/Anteperna_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_L/Anteperna_L/Pe_L
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R/Anteperna_R
+        weight: 1
+      - path: Armature_A/CorpoI/Perna_R/Anteperna_R/Pe_R
+        weight: 1
+      - path: Bigode
+        weight: 1
+      - path: Chap_u
+        weight: 1
+      - path: Corpo
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

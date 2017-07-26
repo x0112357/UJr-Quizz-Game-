@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 02707fc73c1debc4d9ae550f4e25db17
+timeCreated: 1500636790
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: antebraco_L
+    100002: antebraco_R
+    100004: Armature
+    100006: braco_L
+    100008: braco_R
+    100010: cabe_a
+    100012: coxa_L
+    100014: coxa_R
+    100016: coxis
+    100018: Cube
+    100020: espinha
+    100022: //RootNode
+    100024: fingers_L
+    100026: fingers_R
+    100028: hand_L
+    100030: hand_R
+    100032: ombro_L
+    100034: ombro_R
+    100036: p__L
+    100038: p__R
+    100040: perna_L
+    100042: perna_R
+    100044: pesco_o
+    100046: thumb_L
+    100048: thumb_R
+    100050: torax
+    100052: upperThumb_L
+    100054: upperThumb_R
+    400000: antebraco_L
+    400002: antebraco_R
+    400004: Armature
+    400006: braco_L
+    400008: braco_R
+    400010: cabe_a
+    400012: coxa_L
+    400014: coxa_R
+    400016: coxis
+    400018: Cube
+    400020: espinha
+    400022: //RootNode
+    400024: fingers_L
+    400026: fingers_R
+    400028: hand_L
+    400030: hand_R
+    400032: ombro_L
+    400034: ombro_R
+    400036: p__L
+    400038: p__R
+    400040: perna_L
+    400042: perna_R
+    400044: pesco_o
+    400046: thumb_L
+    400048: thumb_R
+    400050: torax
+    400052: upperThumb_L
+    400054: upperThumb_R
+    4300000: Cube
+    7400000: Default Take
+    7400002: ganhar
+    7400004: Idle
+    7400006: Idle_002
+    7400008: Idle_004
+    7400010: perder
+    7400012: selecionar
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ganhar
+      takeName: ganhar
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/coxis
+        weight: 1
+      - path: Armature/coxis/coxa_L
+        weight: 1
+      - path: Armature/coxis/coxa_L/perna_L
+        weight: 1
+      - path: Armature/coxis/coxa_L/perna_L/p__L
+        weight: 1
+      - path: Armature/coxis/coxa_R
+        weight: 1
+      - path: Armature/coxis/coxa_R/perna_R
+        weight: 1
+      - path: Armature/coxis/coxa_R/perna_R/p__R
+        weight: 1
+      - path: Armature/coxis/espinha
+        weight: 1
+      - path: Armature/coxis/espinha/torax
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/hand_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/hand_L/fingers_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/thumb_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/thumb_L/upperThumb_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/hand_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/hand_R/fingers_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/thumb_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/thumb_R/upperThumb_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/pesco_o
+        weight: 1
+      - path: Armature/coxis/espinha/torax/pesco_o/cabe_a
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/coxis
+        weight: 1
+      - path: Armature/coxis/coxa_L
+        weight: 1
+      - path: Armature/coxis/coxa_L/perna_L
+        weight: 1
+      - path: Armature/coxis/coxa_L/perna_L/p__L
+        weight: 1
+      - path: Armature/coxis/coxa_R
+        weight: 1
+      - path: Armature/coxis/coxa_R/perna_R
+        weight: 1
+      - path: Armature/coxis/coxa_R/perna_R/p__R
+        weight: 1
+      - path: Armature/coxis/espinha
+        weight: 1
+      - path: Armature/coxis/espinha/torax
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/hand_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/hand_L/fingers_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/thumb_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/thumb_L/upperThumb_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/hand_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/hand_R/fingers_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/thumb_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/thumb_R/upperThumb_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/pesco_o
+        weight: 1
+      - path: Armature/coxis/espinha/torax/pesco_o/cabe_a
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: perder
+      takeName: perder
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/coxis
+        weight: 1
+      - path: Armature/coxis/coxa_L
+        weight: 1
+      - path: Armature/coxis/coxa_L/perna_L
+        weight: 1
+      - path: Armature/coxis/coxa_L/perna_L/p__L
+        weight: 1
+      - path: Armature/coxis/coxa_R
+        weight: 1
+      - path: Armature/coxis/coxa_R/perna_R
+        weight: 1
+      - path: Armature/coxis/coxa_R/perna_R/p__R
+        weight: 1
+      - path: Armature/coxis/espinha
+        weight: 1
+      - path: Armature/coxis/espinha/torax
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/hand_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/hand_L/fingers_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/thumb_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/thumb_L/upperThumb_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/hand_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/hand_R/fingers_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/thumb_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/thumb_R/upperThumb_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/pesco_o
+        weight: 1
+      - path: Armature/coxis/espinha/torax/pesco_o/cabe_a
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: selecionar
+      takeName: selecionar
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/coxis
+        weight: 1
+      - path: Armature/coxis/coxa_L
+        weight: 1
+      - path: Armature/coxis/coxa_L/perna_L
+        weight: 1
+      - path: Armature/coxis/coxa_L/perna_L/p__L
+        weight: 1
+      - path: Armature/coxis/coxa_R
+        weight: 1
+      - path: Armature/coxis/coxa_R/perna_R
+        weight: 1
+      - path: Armature/coxis/coxa_R/perna_R/p__R
+        weight: 1
+      - path: Armature/coxis/espinha
+        weight: 1
+      - path: Armature/coxis/espinha/torax
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/hand_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/hand_L/fingers_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/thumb_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_L/antebraco_L/braco_L/thumb_L/upperThumb_L
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/hand_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/hand_R/fingers_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/thumb_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/ombro_R/antebraco_R/braco_R/thumb_R/upperThumb_R
+        weight: 1
+      - path: Armature/coxis/espinha/torax/pesco_o
+        weight: 1
+      - path: Armature/coxis/espinha/torax/pesco_o/cabe_a
+        weight: 1
+      - path: Cube
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
