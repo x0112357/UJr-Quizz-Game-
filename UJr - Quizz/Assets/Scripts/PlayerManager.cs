@@ -14,21 +14,19 @@ public class PlayerManager : MonoBehaviour
     private GameObject aux;
 
     private int index;
-    private bool SceneSelect;
+    public bool SceneSelect;
 
     public void Start()
     {
         index = 0;
         aux = Instantiate(PlayerList[index], playerPos.transform);
-        if (currentScene == null)
+        if (SceneSelect)
         {
             currentScene = PlayerList[index];
-            SceneSelect = true;
         }
-        else if (currentPlayer == null)
+        else
         {
             currentPlayer = PlayerList[index];
-            SceneSelect = false;
         }
     }
     public void LeftArrow()
